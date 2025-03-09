@@ -9,7 +9,7 @@ class Tensor:
     A class for visualizing 4D tensor 20x20x20x20
 
     
-    Atributes
+    Attributes
     ---------
     tensor : np.ndarray
         Array for visualization.
@@ -24,7 +24,7 @@ class Tensor:
         ----------
         tensor : np.ndarray
             The 4D tensor to visualize.
-        copy : bool, optional
+        copy : bool
             If True, a copy of the tensor is made. If False, the tensor is used as-is.
         """
 
