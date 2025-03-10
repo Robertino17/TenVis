@@ -133,7 +133,7 @@ class Tensor:
             plt.close(fig)
 
     
-    def show_2d(self, axis1, index1, axis2, index2, size=(15, 12), log=False,
+    def show_2d(self, axis1, index1, axis2, index2, size=(24, 13.5), log=False,
                 colorbar=True, file_name=None, show=True):
 
         """
@@ -219,7 +219,7 @@ class Tensor:
         else:
             plt.close(fig)
     
-    def animate_2d(self, axis1, index1, axis2, size=(15, 12), log=False, colorbar=True,
+    def animate_2d(self, axis1, index1, axis2, size=(24, 13.5), log=False, colorbar=True,
                    file_name=None, interval=1000, show=True):
 
         """
