@@ -1,6 +1,5 @@
 import tenvis
 import numpy as np
-import matplotlib.pyplot as plt
 
 array = np.random.randint(0, 256, size=(20, 20, 20, 20), dtype=np.uint8)
 for i in range(19):
