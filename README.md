@@ -1,8 +1,11 @@
 # TenVis
+TenVis - is a very simple library for visualizing 4D tensors 20x20x20x20
+## Install
 ```bash
 git clone https://github.com/Robertino17/TenVis.git
 pip install -e.
 ```
+## Usage
 Using the library is very simple : 
 ```python
 import tenvis
