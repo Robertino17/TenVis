@@ -422,7 +422,7 @@ class Tensor:
             ax.set_title(f"Axis {axis} = {i}", y=0.995)
             return scatter,
 
-        ani = FuncAnimation(fig, func=next_slice, frames=self.tensor.shape[axis], interval=1000)
+        ani = FuncAnimation(fig, func=next_slice, frames=self.tensor.shape[axis], interval=interval)
 
         if show:
             plt.show()
